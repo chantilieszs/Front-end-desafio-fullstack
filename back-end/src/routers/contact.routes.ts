@@ -3,7 +3,6 @@ import createContactController from "../controllers/contact/createContact.contro
 import deleteContactController from "../controllers/contact/deleteContact.controller";
 import listContactController from "../controllers/contact/listContact.controller";
 import updateContactController from "../controllers/contact/updateContact.controller";
-import { Contact } from "../entities/contact.entities";
 import ensureAuthMiddleware from "../middlewares/ensureAuth.middlewares";
 import { ensureDataIsValidMiddleware, ensureUpdateDataIsValidMiddleware } from "../middlewares/ensureDataIsValid.middlewares";
 import { contactRequestSchema } from "../schemas/contact.schemas";
